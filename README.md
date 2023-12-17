@@ -1,4 +1,4 @@
-# [WebShell | Terminal Portfolio Website](https://www.nasan.dev/)
+# [WebShell | Terminal Portfolio Website](https://pierobassa.netlify.app/)
 
 <div align="center">
   <img alt="banner" src="https://github.com/pierobassa/portfolio-terminal/assets/64158778/8087b905-f3e4-4620-990a-9ab8fabf91be"
