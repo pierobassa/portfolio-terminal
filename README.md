@@ -73,7 +73,7 @@ Most of the configuration is done in the `config.json` file.
 
 Clone the repository
 ```shell
-git clone https://github.com/nasan016/webshell.git
+git clone https://github.com/pierobassa/portfolio-terminal.git
 ```
 Go to the project directory
 ```shell
