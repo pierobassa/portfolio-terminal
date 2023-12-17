@@ -1,8 +1,10 @@
 # [WebShell | Terminal Portfolio Website](https://www.nasan.dev/)
 
 <div align="center">
-  <img alt="banner" src="https://raw.githubusercontent.com/nasan016/webshell/main/res/banner.png">
+  <img alt="banner" src="https://github.com/pierobassa/portfolio-terminal/assets/64158778/8087b905-f3e4-4620-990a-9ab8fabf91be"
+>
 </div>
+
 
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
@@ -28,30 +30,40 @@ Most of the configuration is done in the `config.json` file.
 ```json
 {
   "ascii": [
-    "██████╗ ██╗   ██╗ ██████╗",
-    "██╔══██╗██║   ██║██╔════╝",
-    "██║  ██║██║   ██║██║  ███╗",
-    "██║  ██║██║   ██║██║   ██║",
-    "██████╔╝╚██████╔╝╚██████╔╝",
-    "╚═════╝  ╚═════╝  ╚═════╝",
+    "██████╗░██╗███████╗██████╗░░█████╗░  ██████╗░░█████╗░░██████╗░██████╗░█████╗░",
+    "██╔══██╗██║██╔════╝██╔══██╗██╔══██╗  ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗",
+    "██████╔╝██║█████╗░░██████╔╝██║░░██║  ██████╦╝███████║╚█████╗░╚█████╗░███████║",
+    "██╔═══╝░██║██╔══╝░░██╔══██╗██║░░██║  ██╔══██╗██╔══██║░╚═══██╗░╚═══██╗██╔══██║",
+    "██║░░░░░██║███████╗██║░░██║╚█████╔╝  ██████╦╝██║░░██║██████╔╝██████╔╝██║░░██║",
+    "╚═╝░░░░░╚═╝╚══════╝╚═╝░░╚═╝░╚════╝░  ╚═════╝░╚═╝░░╚═╝╚═════╝░╚═════╝░╚═╝░░╚═╝"
   ],
-  "repoLink": "https://github.com/nasan016/webshell",
+  "repoLink": "https://github.com/pierobassa",
   "social": {
-    "email": "dug@pixar.com",
-    "github": "dugfromup",
-    "linkedin": "dugthedog"
+    "email": "pierobassa222@gmail.com",
+    "github": "pierobassa",
+    "linkedin": "pierobassa"
   },
-  "aboutGreeting": "My name is Dug. I have just met you.",
+  "aboutGreeting": "Hi I'm Piero. I'm a senior blockchain engineer at Vechain.",
   "projects": [
     [
-      "Project Name",
-      "Project Description",
-      "Project Link"
+      "VeWorld Wallet",
+      "Veworld Vechain mobile wallet for iOS and Android written in React Native",
+      "https://www.veworld.net/"
     ],
     [
-      "Another Project Name",
-      "Another Project Description",
-      "Another Project Link"
+      "RubyRing",
+      "SocialFi DApp. ETHGlobal NYC 2023 Lens & Biconomy Winner 🏆",
+      "https://ethglobal.com/showcase/rubyring-pyx6u"
+    ],
+    [
+      "EVM Opcodes",
+      "Ethereum Virtual Machine implementation in GO",
+      "https://github.com/pierobassa/evm-from-scratch"
+    ],
+    [
+      "Extension kit",
+      "A React & Typescript chrome extension starter using Webpack & Tailwindcss.",
+      "https://github.com/pierobassa/react-typescript-chrome-extension-starter"
     ]
   ]
 }
