@@ -59,7 +59,7 @@ const helpObj = {
     ],
     [
       "'repo'",
-      "View the Github Repository."
+      "View my Github Page."
     ],
     ["'banner'",
       "Display the banner."
@@ -114,8 +114,9 @@ const createBanner = () : string[] => {
   });  
   banner.push("<br>");
   banner.push("Welcome to WebShell v1.0.0");
+  banner.push(`Type <span class='command'>'repo'</span> to view my GitHub page or click <a href='${command.repoLink}' target='_blank'>here</a>.`);
+  banner.push("Type <span class='command'>'projects'</span> for a list of my projects.");
   banner.push("Type <span class='command'>'help'</span> for a list of all available commands.");
-  banner.push(`Type <span class='command'>'repo'</span> to view the GitHub repository or click <a href='${command.repoLink}' target='_blank'>here</a>.`);
   banner.push("<br>");
   return banner;
 }

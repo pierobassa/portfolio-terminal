@@ -21,13 +21,20 @@ const PROMPT = document.getElementById("prompt");
 const COMMANDS = ["help", "about", "projects", "whoami", "repo", "banner", "clear"];
 const REPO_LINK = com.REPO_LINK;
 const HISTORY : string[] = [];
-const SUDO_PASSWORD = "050823"
+const SUDO_PASSWORD = "pierobassa"
 
 const scrollToBottom = () => {
   const MAIN = document.getElementById("main");
   if(!MAIN) return
 
   MAIN.scrollTop = MAIN.scrollHeight;
+}
+
+function isCommand(input: string) {
+  for (const ele of COMMANDS) {
+    if (input === ele) return true;
+  }
+  return false;
 }
 
 function userInputHandler(e : KeyboardEvent) {
@@ -60,7 +67,7 @@ function userInputHandler(e : KeyboardEvent) {
       tabKey();
       e.preventDefault();
       break;
-  }
+    }
 }
 
 function enterKey() {
@@ -68,11 +75,19 @@ function enterKey() {
   const resetInput = "";
   let newUserInput;
   userInput = USERINPUT.value;
+
   if (bareMode) {
     newUserInput = userInput;
-  } else {
-    newUserInput = `<span class='output'>${userInput}</span>`;
   }
+
+  if (isCommand(userInput.toLowerCase().trim())) {
+    // If it is a valid command, set the output color to green
+    newUserInput = `<span class='output' style='color: #87ffaf;'>${userInput}</span>`;
+  } else {
+    // If it is not a valid command, set the output color to red
+    newUserInput = `<span class='output' style='color: #FF7685;'>${userInput}</span>`;
+  }
+
 
   HISTORY.push(userInput);
   historyIdx = HISTORY.length
@@ -361,7 +376,7 @@ const initEventListeners = () => {
     USERINPUT.focus();
   });
 
-  console.log("%cPassword: 050823", "color: red; font-size: 20px;");
+  console.log("%cPassword: pierobassa", "color: red; font-size: 20px;");
 }
 
 initEventListeners();

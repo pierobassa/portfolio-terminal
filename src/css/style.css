@@ -4,7 +4,7 @@
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 200;
   --bg: #0C0623;
-  --border: #FFADE2;
+  --border: #87ffaf;
   --text: #F8DDE5;
   --prompt-default: #A5A7A7;
   --prompt-1: #FE6BC9;
@@ -71,7 +71,7 @@ div {
 pre {
   margin: 0;
   line-height: 15px !important;
-  color: #FF9951;
+  color: #00d0d0;
   font-family: monospace;
 }
 
@@ -84,7 +84,7 @@ input {
   resize: none;
   outline: none;
   font-size: 16px;
-  color: #FF7685;
+  color: white;
   caret-color: var(--prompt-default);
   width: 50%;
 }
