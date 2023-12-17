@@ -1,9 +1,9 @@
 # [WebShell | Terminal Portfolio Website](https://pierobassa.netlify.app/)
 
-<div align="center">
-  <img alt="banner" src="https://github.com/pierobassa/portfolio-terminal/assets/64158778/8087b905-f3e4-4620-990a-9ab8fabf91be"
->
-</div>
+
+https://github.com/pierobassa/portfolio-terminal/assets/64158778/e429dfe3-c5d9-417e-9db3-e96a4a5652fa
+
+
 
 
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
